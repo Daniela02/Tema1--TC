@@ -9,7 +9,7 @@ ifstream f("date.in");
 
 struct automat
 {
-    int n, * q, m, q0, nf, nt, nc;
+    int n, * q, m, q0, nf, nt;
     char lambda = 'l';
     bool* fi;
     int M = 0;//cea mai mare stare
